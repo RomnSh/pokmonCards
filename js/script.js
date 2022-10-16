@@ -1,5 +1,5 @@
 let xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://github.com/RomnSh/pokmonCards/blob/main/assets/cardModel.json');
+xhr.open('GET', '../assets/cardModel.json');
 xhr.send();
 
 xhr.onload = function() {
